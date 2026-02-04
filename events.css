@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans-serif';
+}
+body{
+    background: #050008;
+    color:white;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: rgba(255,255,255,0.05);
+}
+nav a{
+    margin-right:20px;
+    text-decoration: none;
+    color:#ccc;
+}
+.login{
+    padding: 6px 18px;
+    border-radius:5px;
+    border:none;
+     background: linear-gradient(45deg,#2a04ff,#9b04f3);
+    color:white;
+}
+.search-bar{
+    padding:40px 50px;
+}
+.search-bar input{
+    width:100%;
+    padding: 14px;
+    border-radius:5px;
+    border:none;
+    background: linear-gradient(45deg,#563bf0,#9b04f3);
+    color:white;
+}
+.filters{
+    margin-top:15px;
+    display:flex;
+    gap:10px;
+}
+.filters select
+{
+    padding: 10px;
+    border-radius:5px;
+    border:none;
+    background: #111;
+    color: white;
+}
+.events-grid{
+    padding:40px 50px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+.event-card{
+    background:rgba(255,255,255,0.05);
+    border-radius: 18px;
+    padding:15px;
+    cursor:pointer;
+    transition: transform .3s;
+}
+.event-card hover{
+    transform: translate(-8px);
+}
+.event-card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:12px;
+}
+.event-card span{
+    color:#cb12e4;
+    font-weight:bold;
+}
+.event-card button{
+    width:100%;
+    padding:10px;
+    border-radius:20px;
+    border:none;
+    background:linear-gradient(45deg,#ff2fa1,#7f00ff);
+    color:white;
+    margin-top:10px;
+}
