@@ -29,6 +29,9 @@ nav a{
 .search-bar{
     padding:40px 50px;
 }
+.search-bar ::placeholder{
+    color:white;
+}
 .search-bar input{
     width:100%;
     padding: 14px;

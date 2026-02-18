@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Booking</title>
+        <link rel="stylesheet" href="booking.css">
+    </head>
+    <body>
+        <h1>Book your tickets</h1>
+
+        <div class="card">
+            <input type="text" placeholder="Add concert name" id="cname">
+            <input type="date" placeholder="concertdate" id="cdate">
+            <input type="text" placeholder="Add location" id="clocation">
+            <input type="number" placeholder="total seats" id="totalseats">
+            <button id="addconcertbtn">Add concert</button>
+            <p id="error"></p>
+        </div>
+        <h2>Available tickets</h2>
+        <div class="card">
+            <input type="text" id="searchinput" placeholder="search by concertname...">
+            <input type="date" id="filterdate" placeholder="search by date">
+            
+            <div id="concertlist"></div>
+        </div>
+        <script src="booking.js"></script>
+    </body>
+</html>

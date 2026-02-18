@@ -1,0 +1,42 @@
+body{
+    font-family:'sans-serif','aerial';
+    text-align:center;
+    background: linear-gradient(90deg,#d83f7c,#481cca);
+}
+.card{
+    background:#FFF;
+    padding:20px;
+    margin:20px auto;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px rgba(29, 29, 29, 0.404);
+}
+
+input,button{
+    width:90%;
+    margin-top:15px;
+    padding:10px;
+    border-radius:5px;
+    border:1px solid #444;
+}
+button{
+    width:50%;
+    background:#d83f7c;
+    color:#FFF;
+    border:none;
+}
+button:hover{
+    background-color:#832fe4;
+}
+.concert{
+    background:#bb6bfcd8;
+    padding:20px;
+    margin:20px auto;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px rgba(95, 95, 95, 0.24);
+}
+#error
+{
+    color:#fa0202;
+}
